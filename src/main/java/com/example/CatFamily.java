@@ -1,9 +1,8 @@
 package com.example;
 
-import java.util.Arrays;
 import java.util.List;
 
-public class CatFamily extends Animal implements Feline {
+public class CatFamily extends Animal implements Predator {
 
     @Override
     public List<String> eatMeat() throws Exception {
